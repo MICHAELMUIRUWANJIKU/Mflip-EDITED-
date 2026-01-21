@@ -1,19 +1,146 @@
+<!-- src/frontend/index.html -->
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nyimbo Cia Agendi - Kikuyu Hymnal</title>
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>M-FLIP Adventures | Explore, Book, Go</title>
+  <meta name="description" content="Adventure tours across Kenya and beyond. Book trips, find offers, and travel confident with MFLIP ADVENTURES." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mdlip web-items/web content Content/html files/CSS/stylesflip.css" />
+  <link rel="stylesheet" href="mdlip web-items/web content Content/html files/CSS/theme.css" />
+  <meta property="og:title" content="MFLIP ADVENTURES" />
+  <meta property="og:description" content="Adventure tours across Kenya and beyond." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/public/images/og-hero.jpg" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/offers.js"></script>
+  <script defer src="js/analytics.js"></script>
+  <script defer src="js/chatbot.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header sticky">
+    <a href="homeflip.html" class="logo">MFLIP<span>ADVENTURES</span></a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="toursflip.html">Tours</a></li>
+        <li><a href="testimonialsflip.html">Testimonials</a></li>
+        <li><a href="faqsflip.html">FAQs</a></li>
+        <li><a href="aboutflip.html">About</a></li>
+        <li><a class="btn btn-primary" href="toursflip.html#book">Book Now</a></li>
+      </ul>
+    </nav>
+    <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu"></button>
+  </header>
 
-    </body>
-    <script>
-    
-    </script>
+  <!-- Main -->
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Find your next adventure</h1>
+        <p>Memorable expirience, trusted guides, and limited‑time offers.</p>
+        <div class="cta-group">
+          <a class="btn btn-primary" href="tours.html">Explore tours</a>
+          <a class="btn btn-outline" href="contact.html">Contact us</a>
+        </div>
+      </div>
+      <picture>
+        <source srcset="/public/images/hero@2x.webp 2x, /public/images/hero.webp 1x" type="image/webp" />
+        <img src="C:\Users\ADMIN\Desktop\Websites\MFLIP Adventures Safaris\mdlip web-items\Resources, Photos Gaphics\SELECTIONS\DSC_0115.jpg" alt="Travelers hiking at sunset" loading="eager" />
+      </picture>
+    </section>
 
+    <!-- Rotating offers -->
+    <section class="offers" aria-labelledby="offers-title">
+      <div class="section-header">
+        <h2 id="offers-title">Rotating offers</h2>
+        <p>Grab limited‑time tour deals before they expire.</p>
+      </div>
+      <div id="offersCarousel" class="carousel" role="region" aria-live="polite"></div>
+    </section>
 
+    <!-- Featured tours -->
+    <section class="featured-tours" aria-labelledby="featured-title">
+      <h2 id="featured-title">Featured tours</h2>
+      <div id="featuredGrid" class="card-grid"></div>
+    </section>
+
+    <!-- Upcoming events -->
+    <section class="upcoming" aria-labelledby="upcoming-title">
+      <h2 id="upcoming-title">Upcoming events</h2>
+      <ul id="upcomingList" class="upcoming-list"></ul>
+    </section>
+
+    <!-- Trust signals -->
+    <section class="trust">
+      <div class="metrics">
+        <div class="metric"><span class="num" data-count="1200">0</span><span class="label">Trips completed</span></div>
+        <div class="metric"><span class="num" data-count="4.9">0</span><span class="label">Avg rating</span></div>
+        <div class="metric"><span class="num" data-count="15">0</span><span class="label">Partner guides</span></div>
+      </div>
+      <div class="trust-logos">
+        <img src="/public/icons/secure.svg" alt="Secure payments" />
+        <img src="/public/icons/verified.svg" alt="Verified partners" />
+        <img src="/public/icons/ga.svg" alt="Analytics enabled" />
+      </div>
+    </section>
+
+    <!-- Testimonials excerpt -->
+    <section class="testimonials-home">
+      <h2>What clients say about Us</h2>
+      <div id="testimonialsSlider" class="slider"></div>
+      <a class="btn btn-outline" href="testimonialsflip.html">See all reviews</a>
+    </section>
+
+    <!-- FAQs excerpt -->
+    <section class="faqs-excerpt">
+      <h2>FAQs</h2>
+      <div id="faqsAccordion" class="accordion"></div>
+      <a class="btn btn-link" href="faqsflip.html">View full FAQs</a>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <h2>Stay in the loop</h2>
+      <form id="newsletterForm" aria-describedby="privacy-note">
+        <label for="newsletterEmail">Email</label>
+        <input type="email" id="newsletterEmail" name="email" required placeholder="email@email.com" autocomplete="email" />
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p id="privacy-note">We value privacy. Unsubscribe anytime.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div>
+      <h3>MFLIP ADVENTURES</h3>
+      <p>Nairobi,  Kenya <strong> Open Sunday-Monday</strong> </p>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/mflipadventures_254official?igsh=MTg1Z2hnMng0MWpqZw==" aria-label="Instagram">Instagram</a></li>
+        <li><a href="https://www.facebook.com/share/1DxYWdeX4p/" aria-label="Facebook">Facebook</a></li>
+        <li><a href="https://x.com/Mflipadventures" aria-label="Twitter">Twitter/X</a></li>
+        <li><a href="TikTok link
+https://www.tiktok.com/@m.flipadventures_?_r=1&_t=ZM-92UhOBTaRqt">TikTok</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>WhatsApp: <a id="wa.me.0714 456493" href="https://wa.me/254714456493" rel="noopener">+254714456493 </a></p>
+      <p>Email: mflipadventuressafaris@gmail.com</p>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <a href="https://goo.gl/maps/HQ6y7Rd9N4m2d6SMA?g_st=aw">Sitemap</a>
+      <a href="/public/robots.txt">Robots</a>
+    </div>
+  </footer>
+
+  <!-- WhatsApp widget & chatbot -->
+  <a href="https://wa.me/254714456493" id="whatsappWidget" class="whatsapp-widget" aria-label="Chat on WhatsApp">Chat</a>
+  <div id="chatbot" class="chatbot" aria-live="polite" aria-expanded="false"></div>
+</body>
 </html>
