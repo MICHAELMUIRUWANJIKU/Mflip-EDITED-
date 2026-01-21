@@ -93,6 +93,10 @@ img {
     display: flex;
     flex-direction: column;
 }
+img {
+    width: 128px;
+    height: 87.5px;
+}
 
 .logo h1 {
     font-size: 28px;
@@ -285,7 +289,8 @@ img {
 }
 
 .tour-image {
-    height: 220px;
+    width: auto;
+    height: auto;
     background-size: cover;
     background-position: center;
     position: relative;
