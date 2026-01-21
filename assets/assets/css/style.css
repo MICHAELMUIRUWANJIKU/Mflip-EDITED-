@@ -1,0 +1,108 @@
+/* ============================
+   General Reset & Typography
+============================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+/* ============================
+   Header & Navigation
+============================= */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #6b4eff;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.site-header .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-header .logo span {
+    font-weight: 400;
+}
+
+.site-header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.site-header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.site-header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.btn-outline {
+    border: 2px solid #ff6600;
+    color: #ff6600;
+}
+
+.btn-outline:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #6b4eff, #ff6600);
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
