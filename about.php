@@ -302,7 +302,6 @@ $pageTitle = "About Us - " . $companyInfo['name'];
             </div>
         </div>
     </section>
-
  
 
     <script src="assets/js/main.js"></script>
