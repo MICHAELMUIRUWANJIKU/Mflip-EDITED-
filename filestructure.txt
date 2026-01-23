@@ -32,9 +32,17 @@ mflip-adventures/
 │   │   ├── logo/                 # Company logo variations
 │   │   ├── tours/                # Tour images
 │   │   ├── gallery/              # General gallery
-│   │   └── backgrounds/          # Background images
-│   └── fonts/                    # Custom fonts if needed
-│
+│   │   ├── backgrounds/          # Background images
+|   |   ├── slides/               # Slides of the hero section index page
+|   |        ├── slide1.jpg  (Masai Mara wildlife)
+|   |        ├── slide2.jpg  (Nairobi skyline with national park)
+|   |        ├── slide3.jpg  (Amboseli elephants with Kilimanjaro)
+|   |        ├── slide4.jpg  (Safari vehicle on adventure)
+|   |        ├── slide5.jpg  (Sunset over Kenyan savannah)  
+|   |
+│   │── fonts/                    # Custom fonts if needed
+│   └── 
+
 ├── includes/
 │   ├── header.php                # Header template
 │   ├── footer.php                # Footer template
