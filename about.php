@@ -8,7 +8,7 @@ session_start();
 // Get company info from database (if available)
 $companyInfo = [
     'name' => 'MflipAdventures & Safaris',
-    'founded' => 2015,
+    'founded' => 2019,
     'location' => 'Nairobi, Kenya',
     'mission' => 'To provide authentic, sustainable, and life-changing safari experiences that showcase Kenya\'s natural wonders while supporting conservation and community development.',
     'description' => 'Based in the heart of Nairobi, Kenya, MflipAdventures & Safaris was founded in 2015 with a simple mission: to share the breathtaking beauty of East Africa with the world while creating meaningful connections between travelers and local communities.'
@@ -17,27 +17,21 @@ $companyInfo = [
 // Get team members from database (example data - in real app, fetch from DB)
 $teamMembers = [
     [
-        'name' => 'Michael "Mflip" Okello',
-        'position' => 'Founder & Lead Guide',
-        'bio' => 'With 20+ years of safari experience, Michael\'s passion for wildlife conservation and community development drives our company\'s mission. Born and raised in Kenya, he knows every corner of our beautiful country.',
+        'name' => ' "Mflip" ',
+        'position' => 'Founder',
+        'bio' => 'With 7+ years of safari experience, Mflips passion for wildlife conservation and community development drives our company\'s mission. Born and raised in Kenya, he knows every corner of our beautiful country.',
         'qualifications' => ['KPSGA Silver Level Guide', 'Speaks 5 local languages'],
-        'image' => 'founder.jpg'
+        'image' => 'nature.jpeg'
     ],
-    [
-        'name' => 'Sarah Wanjiku',
-        'position' => 'Operations Director',
-        'bio' => 'Sarah ensures every safari runs smoothly. With a background in tourism management and logistics, she coordinates our teams, vehicles, and accommodations to create seamless experiences for our guests.',
-        'qualifications' => ['MA Tourism Management', '12 years in safari operations'],
-        'image' => 'operations.jpg'
-    ]
+    
 ];
 
 // Get company stats (could be from database)
 $companyStats = [
-    ['value' => 2015, 'label' => 'Year Founded'],
-    ['value' => 5000, 'label' => 'Happy Travelers'],
-    ['value' => 30, 'label' => 'Expert Guides'],
-    ['value' => 50, 'label' => 'Countries Served']
+    ['value' => 2019, 'label' => 'Year Founded'],
+    ['value' => 2000, 'label' => 'Happy Travelers'],
+    ['value' => 15, 'label' => 'Expert Guides'],
+    ['value' => 30, 'label' => 'Countries Served']
 ];
 
 // Get core values
@@ -73,7 +67,7 @@ $pageTitle = "About Us - " . $companyInfo['name'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
-    <link rel="stylesheet" href="\Mflip-EDITED-\assets\css\about.css">
+    <link rel="stylesheet" href="Mflip-EDITED-/assets/assets/css/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,13 +80,14 @@ $pageTitle = "About Us - " . $companyInfo['name'];
             <nav class="navbar">
                 <div class="logo">
                     <a href="index.php">
+                        
                         <h1>Mflip<span>Adventures</span></h1>
                         <p class="tagline">& Safaris</p>
                     </a>
                 </div>
                 
                 <ul class="nav-menu">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="tours.php">Tours</a></li>
                     <li><a href="about.php" class="active">About</a></li>
                     <li><a href="gallery.php">Gallery</a></li>
@@ -174,15 +169,15 @@ $pageTitle = "About Us - " . $companyInfo['name'];
                     
                     <div class="story-section">
                         <h3>Our Journey</h3>
-                        <p>What began as a small operation with one safari vehicle and two passionate guides has grown into one of Nairobi's most trusted tour companies. Our founder, Michael "Mflip" Okello, started this company after 15 years of guiding experience across East Africa. He believed that tourists deserved more than just a checklist of animals - they deserved to understand and connect with the land, its people, and its conservation efforts.</p>
+                        <p>What began as a small operation with one safari vehicle and two passionate guides has grown into one of Nairobi's most trusted tour companies. Our founder, "Mflip" , started this company after years of guiding experience across East Africa. He believed that tourists deserved more than just a checklist of animals - they deserved to understand and connect with the land, its people, and its conservation efforts.</p>
                         
-                        <p>Today, we operate a fleet of custom-built safari vehicles, employ over 30 local experts, and have hosted travelers from more than 50 countries. Yet, we've never lost sight of our roots. Every safari we design carries the personal touch that only comes from deep local knowledge and genuine passion for our homeland.</p>
+                        <p>Today, we operate a fleet of custom-built safari vehicles, employ over 15 local experts, and have hosted travelers from more than 20 countries. Yet, we've never lost sight of our roots. Every safari we design carries the personal touch that only comes from deep local knowledge and genuine passion for our homeland.</p>
                     </div>
                 </div>
                 
                 <div class="about-image">
                     <div class="image-frame">
-                        <img src="assets/images/about/team-photo.jpg" alt="<?php echo htmlspecialchars($companyInfo['name']); ?> Team in Nairobi">
+                        <img src="assets/images/guides.jpeg" alt="<?php echo htmlspecialchars($companyInfo['name']); ?> Team in Nairobi">
                         <div class="image-caption">
                             <p>Our team of expert guides and staff in Nairobi</p>
                         </div>
@@ -211,7 +206,7 @@ $pageTitle = "About Us - " . $companyInfo['name'];
         <div class="container">
             <div class="nairobi-grid">
                 <div class="nairobi-image">
-                    <img src="assets/images/about/nairobi-skyline.jpg" alt="Nairobi Skyline">
+                    <img src="assets/images/skyline-nairobi.jpg" alt="Nairobi Skyline">
                 </div>
                 <div class="nairobi-content">
                     <h2>Why <?php echo explode(',', $companyInfo['location'])[0]; ?>?</h2>
