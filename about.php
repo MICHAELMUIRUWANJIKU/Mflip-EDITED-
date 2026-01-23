@@ -297,7 +297,63 @@ $pageTitle = "About Us - " . $companyInfo['name'];
             </div>
         </div>
     </section>
- 
+  <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <h2>Mflip<span>Adventures</span></h2>
+                        <p class="tagline">& Safaris</p>
+                    </div>
+                    <p>Providing unforgettable safari experiences in Nairobi and across Kenya since 2015.</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/mflipadventures_254official"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/share/1DxYWdeX4p/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/Mflipadventures"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/254714456493"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="booking.html">Booking</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
+                        <li><i class="fas fa-phone"></i> +254 700 123 456</li>
+                        <li><i class="fas fa-envelope"></i> info@mflipadventures.com</li>
+                        <li><i class="fas fa-clock"></i> Mon - Sat: 8:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for safari tips and exclusive offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> MflipAdventures & Safaris. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/about.js"></script>
