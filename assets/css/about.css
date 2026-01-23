@@ -2,10 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e3e9e6;
+    background-color: white;
     height: min-content;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;   /* higher than other elements */
 }
-
 .logo .logo1 {
     width: 128px;
     height: 87.5px;
@@ -35,6 +39,20 @@
 .nav-menu a.active {
     color: #2e8b57; 
 }
+.btn-book {
+    background-color: green;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-book:hover {
+    background-color: var(--button-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(46, 139, 87, 0.3);
+}
 .hamburger {
     display: none;
     cursor: pointer;
@@ -57,7 +75,7 @@
         position:relative;
         top: 80px;
         right: 0;
-        background: #15e45a;
+        background: #eef1ef;
         flex-direction: column;
         width: 100%;
         text-align: center;
@@ -76,30 +94,22 @@
 
 /* About Hero Section */
 .about-hero {
-    height: 60vh;
+    height: 100vh;
     min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--white);
+    color: white;
     margin-top: 60px;
     position: relative;
     overflow: hidden;
-    background-image: url("assets/images/diani.jpg") ;
+    background:url("..assets/images/slides/impalas.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.about-hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    animation: heroSlider 15s infinite;
-    z-index: 0;
-}
+
 /* DARK OVERLAY */
 .about-hero::after {
     content: "";
@@ -650,6 +660,13 @@
     color: var(--white);
     padding: 80px 0 30px;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;   /* IMPORTANT */
+    box-sizing: border-box;
+}
+
 
 .footer-grid {
     display: grid;
@@ -679,13 +696,14 @@
 
 .footer-logo h2 {
     font-size: 28px;
-    color: var(--white);
+    color:white;
     margin-bottom: 5px;
 }
 
 .footer-logo h2 span {
-    color: var(--primary-green);
+    color: green;
 }
+
 
 .footer-logo .tagline {
     color: #aaa;
@@ -694,7 +712,7 @@
 }
 
 .footer-col p {
-    color: #aaa;
+    color: #f7f2f2;
     margin-bottom: 25px;
     line-height: 1.7;
 }
@@ -713,10 +731,11 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     transition: all 0.3s ease;
+    color: white;
 }
 
 .social-icons a:hover {
-    background-color: var(--primary-green);
+    background-color:green;
     transform: translateY(-5px);
 }
 
@@ -772,11 +791,13 @@
     border-radius: 30px;
     border: none;
     background-color: var(--primary-green);
-    color: var(--white);
+    color: white;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: 'Poppins', sans-serif;
+    background-color: green;
+
 }
 
 .newsletter-form button:hover {

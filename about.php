@@ -20,8 +20,8 @@ $teamMembers = [
         'name' => ' "Mflip" ',
         'position' => 'Founder',
         'bio' => 'With 7+ years of safari experience, Mflips passion for wildlife conservation and community development drives our company\'s mission. Born and raised in Kenya, he knows every corner of our beautiful country.',
-        'qualifications' => ['KPSGA Silver Level Guide', 'Speaks 5 local languages'],
-        'image' => 'nature.jpeg'
+        'qualifications' => [ 'Speaks 3 local languages'],
+        'image' => 'founder.jpeg'
     ],
     
 ];
