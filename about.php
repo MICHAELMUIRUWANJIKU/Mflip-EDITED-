@@ -67,7 +67,7 @@ $pageTitle = "About Us - " . $companyInfo['name'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
-    <link rel="stylesheet" href="Mflip-EDITED-/assets/assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,8 +81,8 @@ $pageTitle = "About Us - " . $companyInfo['name'];
                 <div class="logo">
                     <a href="index.php">
                         
-                        <h1>Mflip<span>Adventures</span></h1>
-                        <p class="tagline">& Safaris</p>
+                        <img class="logo1" src="assets/images/mflip_logo.jpeg">
+
                     </a>
                 </div>
                 
