@@ -81,8 +81,8 @@ $pageTitle = "About Us - " . $companyInfo['name'];
                 <div class="logo">
                     <a href="index.php">
                         
-                        <h1>Mflip<span>Adventures</span></h1>
-                        <p class="tagline">& Safaris</p>
+                        <img class="logo1" src="assets/images/mflip_logo.jpeg">
+
                     </a>
                 </div>
                 
