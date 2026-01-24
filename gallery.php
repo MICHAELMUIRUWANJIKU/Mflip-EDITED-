@@ -42,28 +42,28 @@
                 <!-- Gallery items will be loaded here -->
                 <?php
                 $galleryItems = [
-                    ['id' => 1, 'category' => 'wildlife', 'title' => 'Masai Mara Lion', 'image' => 'lion-mara.jpg'],
-                    ['id' => 2, 'category' => 'landscape', 'title' => 'Kilimanjaro Sunrise', 'image' => 'kilimanjaro.jpg'],
-                    ['id' => 3, 'category' => 'wildlife', 'title' => 'Amboseli Elephants', 'image' => 'elephants-amboseli.jpg'],
-                    ['id' => 4, 'category' => 'cultural', 'title' => 'Maasai Warrior', 'image' => 'maasai-warrior.jpg'],
-                    ['id' => 5, 'category' => 'safari-life', 'title' => 'Game Drive', 'image' => 'game-drive.jpg'],
-                    ['id' => 6, 'category' => 'sunset', 'title' => 'Savannah Sunset', 'image' => 'savannah-sunset.jpg'],
-                    ['id' => 7, 'category' => 'wildlife', 'title' => 'Cheetah Hunt', 'image' => 'cheetah-hunt.jpg'],
-                    ['id' => 8, 'category' => 'landscape', 'title' => 'Great Rift Valley', 'image' => 'rift-valley.jpg'],
+                    ['id' => 1, 'category' => 'wildlife', 'title' => 'Masai Mara Lion', 'image' => 'lionmara.jpg'],
+                    ['id' => 2, 'category' => 'landscape', 'title' => 'Kilimanjaro Sunrise', 'image' => 'kilimanjaro sunrise.jfif'],
+                    ['id' => 3, 'category' => 'wildlife', 'title' => 'Amboseli Elephants', 'image' => '_Elephants_At_Amboseli.jpg'],
+                    ['id' => 4, 'category' => 'cultural', 'title' => 'Maasai Warrior', 'image' => 'maasai worriors.jfif'],
+                    ['id' => 5, 'category' => 'safari-life', 'title' => 'Game Drive', 'image' => 'game drive.jpeg'],
+                    ['id' => 6, 'category' => 'sunset', 'title' => 'Savannah Sunrise', 'image' => 'sunset.jpg'],
+                    ['id' => 7, 'category' => 'wildlife', 'title' => 'Cheetah Hunt', 'image' => 'leopard hunt.jfif'],
+                    ['id' => 8, 'category' => 'landscape', 'title' => 'Great Rift Valley', 'image' => 'great rift valley.jfif'],
                     ['id' => 9, 'category' => 'cultural', 'title' => 'Samburu Dance', 'image' => 'samburu-dance.jpg'],
-                    ['id' => 10, 'category' => 'wildlife', 'title' => 'Nairobi Giraffes', 'image' => 'giraffes-nairobi.jpg'],
-                    ['id' => 11, 'category' => 'safari-life', 'title' => 'Bush Breakfast', 'image' => 'bush-breakfast.jpg'],
-                    ['id' => 12, 'category' => 'sunset', 'title' => 'Mara River Sunset', 'image' => 'mara-sunset.jpg'],
-                    ['id' => 13, 'category' => 'wildlife', 'title' => 'Lake Nakuru Flamingos', 'image' => 'flamingos.jpg'],
-                    ['id' => 14, 'category' => 'landscape', 'title' => 'Tsavo Red Elephants', 'image' => 'tsavo-red.jpg'],
-                    ['id' => 15, 'category' => 'cultural', 'title' => 'Market Visit', 'image' => 'local-market.jpg'],
+                    ['id' => 10, 'category' => 'wildlife', 'title' => 'Nairobi Giraffes', 'image' => 'Giraffe-at-Nairobi-National-Park.webp'],
+                    ['id' => 11, 'category' => 'safari-life', 'title' => 'Bush Breakfast', 'image' => 'bush breakfast.jfif'],
+                    ['id' => 12, 'category' => 'sunset', 'title' => 'Mara River Sunset', 'image' => 'mara river sunset.jfif'],
+                    ['id' => 13, 'category' => 'wildlife', 'title' => 'Samburu National Park', 'image' => 'samburu national park.jpg'],
+                    ['id' => 14, 'category' => 'landscape', 'title' => 'Tsavo Red Elephants', 'image' => '1674110151_39_wildlife-3233525_1280.jpg'],
+                    ['id' => 15, 'category' => 'cultural', 'title' => 'The team', 'image' => 'people.jpeg'],
                 ];
                 
                 foreach ($galleryItems as $item) {
                     echo '
                     <div class="gallery-item" data-category="' . $item['category'] . '">
                         <div class="gallery-img">
-                            <img src="assets/images/gallery/' . $item['image'] . '" alt="' . $item['title'] . '">
+                            <img src="assets/images/' . $item['image'] . '" alt="' . $item['title'] . '">
                             <div class="gallery-overlay">
                                 <div class="gallery-info">
                                     <h3>' . $item['title'] . '</h3>
@@ -103,7 +103,8 @@
             <div class="video-grid">
                 <div class="video-card">
                     <div class="video-thumbnail">
-                        <img src="assets/images/videos/migration-thumb.jpg" alt="Great Migration">
+<iframe width="853" height="480" src="https://www.youtube.com/embed/oTw4XnLnSmU" title="The Great Migration - Wildebeest Migration from the Serengeti to the Masai Mara, Crossing Mara River" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <img src="assets/images/videos/migration-thumb.jpg" alt="Great Migration">
                         <div class="play-btn">
                             <i class="fas fa-play"></i>
                         </div>
@@ -131,7 +132,7 @@
                 
                 <div class="video-card">
                     <div class="video-thumbnail">
-                        <img src="assets/images/videos/cultural-thumb.jpg" alt="Cultural Experience">
+                        <img src="assets/images/videos/maasai worriors dance" alt="Cultural Experience">
                         <div class="play-btn">
                             <i class="fas fa-play"></i>
                         </div>
