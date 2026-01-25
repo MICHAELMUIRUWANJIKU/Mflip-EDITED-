@@ -562,32 +562,6 @@
     color: var(--gray-medium);
     line-height: 1.7;
 }
-
-/* About CTA */
-.about-cta {
-    padding: 20px 0;
-    background: hsl(0, 0%, 100%);
-    background-size: cover;
-    color: var(--white);
-    text-align: center;
-    width: 80%;
-}
-
-.about-cta h2 {
-    font-size: 2.8rem;
-    color: var(--white);
-    margin-bottom: 20px;
-}
-
-.about-cta p {
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.9;
-}
-
 /* ===== RESPONSIVE STYLES ===== */
 @media (max-width: 992px) {
     .about-grid {
@@ -644,9 +618,7 @@
         grid-template-columns: 1fr;
     }
     
-    .about-cta h2 {
-        font-size: 2.2rem;
-    }
+    
 }
 
 @media (max-width: 576px) {
@@ -806,8 +778,8 @@
     padding: 12px 15px;
     border-radius: 30px;
     border: none;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: var(--white);
+    background-color: rgba(252, 251, 251, 0.1);
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
 

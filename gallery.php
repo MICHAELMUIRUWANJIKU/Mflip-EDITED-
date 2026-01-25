@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery | MflipAdventures & Safaris</title>
+      <link rel="icon" href="assets/images/mflip favicon.png" type="image/png">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/gallery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -14,7 +16,14 @@
     <?php include('includes/header.php'); ?>
 
     <!-- Gallery Hero -->
-    <section class="gallery-hero">
+         <section class="gallery-hero">
+      <div class="hero-slider">
+            <div class="slide active" style="background-image: url('assets/images/slides/zip lining.jpeg');"></div>
+            <div class="slide" style="background-image: url('assets/images/slides/sironka trip.JPG');"></div>
+            <div class="slide" style="background-image: url('assets/images/slides/mudfun.jpeg');"></div>
+            <div class="slide" style="background-image: url('assets/images/slides/park gate.jpeg');"></div>
+            <div class="slide" style="background-image: url('assets/images/slides/diani.jpg');"></div>
+        </div>
         <div class="container">
             <h1>Safari Moments Gallery</h1>
             <p>Capturing the magic of Kenya's wildlife and landscapes</p>
@@ -44,13 +53,13 @@
                 $galleryItems = [
                     ['id' => 1, 'category' => 'wildlife', 'title' => 'Masai Mara Lion', 'image' => 'lionmara.jpg'],
                     ['id' => 2, 'category' => 'landscape', 'title' => 'Kilimanjaro Sunrise', 'image' => 'kilimanjaro sunrise.jfif'],
-                    ['id' => 3, 'category' => 'wildlife', 'title' => 'Amboseli Elephants', 'image' => '_Elephants_At_Amboseli.jpg'],
-                    ['id' => 4, 'category' => 'cultural', 'title' => 'Maasai Warrior', 'image' => 'maasai worriors.jfif'],
+                    ['id' => 3, 'category' => 'wildlife', 'title' => 'Amboseli Elephants', 'image' => 'elephants at amboseli.jpg'],
+                    ['id' => 4, 'category' => 'cultural', 'title' => 'Maasai Warrior', 'image' => 'maasai worriors.jpeg'],
                     ['id' => 5, 'category' => 'safari-life', 'title' => 'Game Drive', 'image' => 'game drive.jpeg'],
                     ['id' => 6, 'category' => 'sunset', 'title' => 'Savannah Sunrise', 'image' => 'sunset.jpg'],
-                    ['id' => 7, 'category' => 'wildlife', 'title' => 'Cheetah Hunt', 'image' => 'leopard hunt.jfif'],
+                    ['id' => 7, 'category' => 'wildlife', 'title' => 'Hyena Hunt', 'image' => 'hyena hunt.jpg'],
                     ['id' => 8, 'category' => 'landscape', 'title' => 'Great Rift Valley', 'image' => 'great rift valley.jfif'],
-                    ['id' => 9, 'category' => 'cultural', 'title' => 'Samburu Dance', 'image' => 'samburu-dance.jpg'],
+                    ['id' => 9, 'category' => 'cultural', 'title' => 'Samburu Dance', 'image' => 'samburu dance.jpg'],
                     ['id' => 10, 'category' => 'wildlife', 'title' => 'Nairobi Giraffes', 'image' => 'Giraffe-at-Nairobi-National-Park.webp'],
                     ['id' => 11, 'category' => 'safari-life', 'title' => 'Bush Breakfast', 'image' => 'bush breakfast.jfif'],
                     ['id' => 12, 'category' => 'sunset', 'title' => 'Mara River Sunset', 'image' => 'mara river sunset.jfif'],
@@ -112,7 +121,7 @@
                     <div class="video-info">
                         <h3>The Great Migration</h3>
                         <p>Witness millions of wildebeest crossing the Mara River</p>
-                        <span class="video-duration">2:45</span>
+                        <span class="video-duration">4:45</span>
                     </div>
                 </div>
                 

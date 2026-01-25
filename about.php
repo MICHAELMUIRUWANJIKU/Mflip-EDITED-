@@ -286,15 +286,7 @@ $pageTitle = "About Us - " . $companyInfo['name'];
     </section>
 
     <!-- Call to Action -->
-    <section class="about-cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Experience Kenya with Us?</h2>
-                <p>Join thousands of travelers who've discovered the magic of Africa through our authentic safaris.</p>
-                
-            </div>
-        </div>
-    </section>
+   
   <footer class="main-footer">
         <div class="container">
             <div class="footer-grid">
