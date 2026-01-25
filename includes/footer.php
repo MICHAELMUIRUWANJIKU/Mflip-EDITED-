@@ -19,12 +19,12 @@
                 <div class="footer-col">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="tours.php">Tours</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                        <li><a href="booking.php">Booking</a></li>
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="../tours.php">Tours</a></li>
+                        <li><a href="../about.php">About Us</a></li>
+                        <li><a href="../gallery.php">Gallery</a></li>
+                        <li><a href="../contact.php">Contact</a></li>
+                        <li><a href="../booking.php">Booking</a></li>
                     </ul>
                 </div>
                 

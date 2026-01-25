@@ -566,7 +566,7 @@
 /* About CTA */
 .about-cta {
     padding: 20px 0;
-    background: #474444;
+    background: hsl(0, 0%, 100%);
     background-size: cover;
     color: var(--white);
     text-align: center;
