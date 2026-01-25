@@ -6,6 +6,7 @@ mflip-adventures/
 ├── tour-details.php              # Individual tour page
 ├── contact.php                   # Contact page
 ├── booking.php                   # Booking form
+├── gallery.php                   # Gallery page
 ├── admin/                        # Admin section
 │   ├── index.php                 # Admin dashboard
 │   ├── login.php                 # Admin login
@@ -22,11 +23,15 @@ mflip-adventures/
 │   ├── css/
 │   │   ├── style.css             # Main stylesheet
 │   │   ├── colors.css            # Color theme variables
+│   │   ├── contact.css           # css for contacts
+│   │   ├── tours.css             # css for tours
 │   │   └── responsive.css        # Responsive styles
 │   ├── js/
 │   │   ├── main.js               # Main JavaScript
 │   │   ├── booking.js            # Booking form logic
 │   │   ├── gallery.js            # Image gallery
+│   │   ├── contact.js            # js for contact
+│   │   ├── tours.js              # Js for tours
 │   │   └── admin.js              # Admin panel scripts
 │   ├── images/
 │   │   ├── logo/                 # Company logo variations

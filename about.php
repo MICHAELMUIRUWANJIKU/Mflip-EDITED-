@@ -266,8 +266,8 @@ $pageTitle = "About Us - " . $companyInfo['name'];
     <section class="values-section">
         <div class="container">
             <div class="section-header">
-                <h2>Our Core Values</h2>
-                <p>The principles that guide every safari we create</p>
+                <p class="core" >Our Core Values</p>
+                <p class="the" >The principles that guide every safari we create</p>
             </div>
             
             <div class="values-grid">
@@ -289,11 +289,8 @@ $pageTitle = "About Us - " . $companyInfo['name'];
         <div class="container">
             <div class="cta-content">
                 <h2>Ready to Experience Kenya with Us?</h2>
-                <p>Join thousands of travelers who've discovered the magic of Africa through our authentic safaris</p>
-                <div class="cta-buttons">
-                    <a href="tours.php" class="btn-cta">Explore Our Tours</a>
-                    <a href="contact.php" class="btn-cta-alt">Contact Our Team</a>
-                </div>
+                <p>Join thousands of travelers who've discovered the magic of Africa through our authentic safaris.</p>
+                
             </div>
         </div>
     </section>

@@ -480,14 +480,22 @@
 
 /* Values Section */
 .values-section {
-    padding: 100px 0;
-    background-color: var(--secondary-bg);
+    
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #e6e6e6;
+    width: 95%;
 }
 
 .values-section .section-header {
     margin-bottom: 60px;
 }
-
+.values-section .section-header .core {
+    font-size: 40px;
+}
+.values-section .section-header .the {
+    font-size: 23px;
+}
 .values-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -495,7 +503,7 @@
 }
 
 .value-card {
-    background-color: var(--white);
+    background-color: white;
     padding: 40px 30px;
     border-radius: 10px;
     text-align: center;
@@ -537,11 +545,12 @@
 
 /* About CTA */
 .about-cta {
-    padding: 100px 0;
+    padding: 20px 0;
     background: #474444;
     background-size: cover;
     color: var(--white);
     text-align: center;
+    width: 80%;
 }
 
 .about-cta h2 {
