@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Header -->
-    <?php include('includes/header.php'); ?>
+    <?php include('header.php'); ?>
 
     <!-- Contact Hero -->
     <section class="contact-hero">
@@ -213,7 +213,7 @@
     </section>
 
     <!-- Footer -->
-    <?php include('includes/footer.php'); ?>
+    <?php include('footer.php'); ?>
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

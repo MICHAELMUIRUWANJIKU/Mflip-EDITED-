@@ -16,6 +16,8 @@
     <!-- Tours Hero -->
     <section class="tours-hero">
         <div class="container">
+            <div class="slide active" style="background-image: url('assets/images/slides/Leopard&tree.jpg');"></div>
+
             <h1>Explore Our Safari Adventures</h1>
             <p>From Nairobi day trips to multi-day expeditions across Kenya's most iconic parks</p>
         </div>
@@ -228,7 +230,7 @@
                     <div class="testimonial-author">
                         <img src="assets/images/testimonials/client1.jpg" alt="Sarah Johnson">
                         <div>
-                            <h4>Sarah Johnson</h4>
+                            <h4>Michael Maina</h4>
                             <span>USA · Masai Mara Tour</span>
                         </div>
                     </div>

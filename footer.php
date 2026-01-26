@@ -12,19 +12,19 @@
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 
                 <div class="footer-col">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="../index.php">Home</a></li>
-                        <li><a href="../tours.php">Tours</a></li>
-                        <li><a href="../about.php">About Us</a></li>
-                        <li><a href="../gallery.php">Gallery</a></li>
-                        <li><a href="../contact.php">Contact</a></li>
-                        <li><a href="../booking.php">Booking</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tours.php">Tours</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="booking.php">Booking</a></li>
                     </ul>
                 </div>
                 
@@ -57,11 +57,7 @@
 
     <!-- All JavaScript files -->
     <script src="assets/js/main.js"></script>
-    
-    <!-- Page-specific JS -->
-    <?php if (file_exists('assets/js/' . $current_page . '.js')): ?>
-    <script src="assets/js/<?php echo $current_page; ?>.js"></script>
-    <?php endif; ?>
+   
     
     <!-- Page-specific additional JS -->
     <?php if (isset($additional_js)): ?>

@@ -2,8 +2,8 @@
 
 /* Contact Hero */
 .contact-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url('../images/backgrounds/contact-hero.jpg') no-repeat center center;
+    background: linear-gradient(#000000b3, #beb2b2b3), 
+                url('../images/lionmara.jpg') no-repeat center center;
     background-size: cover;
     color: var(--white);
     text-align: center;

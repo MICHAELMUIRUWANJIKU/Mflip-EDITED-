@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
-    <?php include('includes/header.php'); ?>
+    <?php include('header.php'); ?>
+
 
     <!-- Gallery Hero -->
     <section class="gallery-hero">
@@ -170,7 +170,7 @@
     </div>
 
     <!-- Footer -->
-    <?php include('includes/footer.php'); ?>
+    <?php include('footer.php'); ?>
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/gallery.js"></script>

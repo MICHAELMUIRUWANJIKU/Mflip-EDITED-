@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Header -->
-    <?php include('includes/header.php'); ?>
+    <?php include('header.php'); ?>
 
     <!-- Tours Hero -->
     <section class="tours-hero">
@@ -252,7 +252,7 @@
     </section>
 
     <!-- Footer -->
-    <?php include('includes/footer.php'); ?>
+    <?php include('footer.php'); ?>
 
     <script src="assets/js/main.js"></script>
     <script src="assets/js/tours.js"></script>
