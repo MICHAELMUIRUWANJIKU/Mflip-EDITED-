@@ -127,6 +127,7 @@
                 
                 <div class="video-card">
                     <div class="video-thumbnail">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/K7SR0_rhMSo" title="How a Lion Pride Hunts Prey | Cat Attack-tics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <img src="assets/images/videos/lion-hunt-thumb.jpg" alt="Lion Hunt">
                         <div class="play-btn">
                             <i class="fas fa-play"></i>
@@ -141,6 +142,7 @@
                 
                 <div class="video-card">
                     <div class="video-thumbnail">
+                        <iframe width="315" height="576" src="https://www.youtube.com/embed/egIe4k3wc5w" title="Experience authentic Maasai culture in action. Would you try this? #africa #culture #adventure" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <img src="assets/images/videos/maasai worriors dance" alt="Cultural Experience">
                         <div class="play-btn">
                             <i class="fas fa-play"></i>
