@@ -245,7 +245,7 @@ $pageTitle = "About Us - " . $companyInfo['name'];
                 <?php foreach($teamMembers as $member): ?>
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="assets/images/about/<?php echo htmlspecialchars($member['image']); ?>" alt="<?php echo htmlspecialchars($member['name']); ?>">
+                        <img src="assets/images/<?php echo htmlspecialchars($member['image']); ?>" alt="<?php echo htmlspecialchars($member['name']); ?>">
                     </div>
                     <div class="member-info">
                         <h3><?php echo htmlspecialchars($member['name']); ?></h3>

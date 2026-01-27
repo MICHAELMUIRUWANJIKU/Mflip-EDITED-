@@ -36,17 +36,16 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <div class="logo">
                     <a href="index.php">
                         <img class="logo1" src="assets/images/mflip_logo.jpeg">
-
                     </a>
                 </div>
                 
                 <ul class="nav-menu">
-                    <li><a href="../index.html" class="<?php echo ($current_page == 'index.php') ? 'active' : ''; ?>">Home</a></li>
-                    <li><a href="../tours.php" class="<?php echo ($current_page == 'tours.php') ? 'active' : ''; ?>">Tours</a></li>
-                    <li><a href="../about.php" class="<?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">About</a></li>
-                    <li><a href="../gallery.php" class="<?php echo ($current_page == 'gallery.php') ? 'active' : ''; ?>">Gallery</a></li>
-                    <li><a href="../contact.php" class="<?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact</a></li>
-                    <li><a href="../booking.php" class="btn-book">Book Now</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tours.php" >Tours</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="booking.php" class="btn-book">Book Now</a></li>
                 </ul>
                 
                 <div class="hamburger">

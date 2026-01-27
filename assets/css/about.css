@@ -562,6 +562,34 @@
     color: var(--gray-medium);
     line-height: 1.7;
 }
+<<<<<<< HEAD
+=======
+
+/* About CTA */
+.about-cta {
+    padding: 20px 0;
+    background: hsl(0, 0%, 100%);
+    background-size: cover;
+    color: var(--white);
+    text-align: center;
+}
+
+.about-cta h2 {
+    font-size: 2.8rem;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.about-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+
+>>>>>>> 08d637e4844c0726557c29be38b7a3a9e9287045
 /* ===== RESPONSIVE STYLES ===== */
 @media (max-width: 992px) {
     .about-grid {

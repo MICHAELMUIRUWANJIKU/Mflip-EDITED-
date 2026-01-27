@@ -2,10 +2,19 @@
 
 /* Gallery Hero */
 .gallery-hero {
+<<<<<<< HEAD
   height: 100vh;
     min-height: 600px;
     position: relative;
     overflow: hidden;
+=======
+    background: linear-gradient(#000000b3, #000000b3), 
+                url('../images/lionmara.jpg') no-repeat center center;
+    background-size: cover;
+    color: var(--white);
+    text-align: center;
+    padding: 150px 0 80px;
+>>>>>>> 08d637e4844c0726557c29be38b7a3a9e9287045
     margin-top: 80px;
 }
 hero-slider {

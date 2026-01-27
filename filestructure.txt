@@ -7,17 +7,34 @@ mflip-adventures/
 ├── contact.php                   # Contact page
 ├── booking.php                   # Booking form
 ├── gallery.php                   # Gallery page
-├── admin/                        # Admin section
-│   ├── index.php                 # Admin dashboard
-│   ├── login.php                 # Admin login
-│   ├── tours/                    # Tour management
-│   │   ├── index.php             # List tours
-│   │   ├── add.php               # Add new tour
-│   │   └── edit.php              # Edit tour
-│   ├── bookings/                 # Booking management
-│   │   ├── index.php             # List bookings
-│   │   └── view.php              # View single booking
-│   └── logout.php                # Admin logout
+├── header.php                # Header template
+├── footer.php                # Footer template
+├── admin/
+|    ├── login.php
+|    ├── logout.php
+|    ├── index.php (admin dashboard)
+|    ├── login_logic.php
+│    ├── bookings/                 # Booking management
+│    │   ├── index.php             # List bookings
+│    │   └── view.php              # View single booking
+|    ├── assets/
+│        ├── css/
+|        |   ├── admin-login.css
+│        │   └── admin-dashboard.css
+│        └── js/
+│             └── admin-login.js
+├── tours/
+│   ├── index.php
+│   ├── add.php
+│   └── edit.php
+├── bookings/
+│   ├── index.php
+│   └── view.php
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   └── sidebar.php
+└── users/ (optional for managing admin users)   
 │
 ├── assets/
 │   ├── css/
@@ -49,8 +66,6 @@ mflip-adventures/
 │   └── 
 
 ├── includes/
-│   ├── header.php                # Header template
-│   ├── footer.php                # Footer template
 │   ├── database.php              # Database connection
 │   ├── functions.php             # Common functions
 │   ├── config.php                # Configuration settings
