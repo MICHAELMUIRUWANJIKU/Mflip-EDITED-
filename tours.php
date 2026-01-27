@@ -85,7 +85,7 @@
                     'id' => 2,
                     'title' => 'Samburu Overland Truck Party at Buffalo Spring National Reserve',
                     'description' => 'Experience the wild like never before at Buffalo Springs National Reserve in Isiolo, Kenya! Spot majestic elephants, lions, and giraffes on thrilling game drives, take in breathtaking views from a hot air balloon, and connect with the vibrant Samburu culture. Adventure, wildlife, and unforgettable memories await—come explore Kenya\'s hidden gem!',
-                    'duration' => '1 Day',
+                    'duration' => '2 Day',
                     'price' => 9000,
                     'type' => 'wildlife',
                     'difficulty' => 'Easy',
@@ -168,6 +168,18 @@ A perfect escape for mind, body, and soul.',
                     'difficulty' => 'Moderate',
                     'rating' => 4.4,
                     'image' => 'LELESHWA GETAWAY-116.jpg',
+                    'featured' => false
+                ],
+                 [
+                    'id' => 9,
+                    'title' => 'Camp Ndunda Falls',
+                    'description' => 'Escape to comfort, nature, and great food at Camp Ndunda falls and have endless fun as yo interact with nature. Visit today and unwind in a serene garden setting.',
+                    'duration' => '3 Day',
+                    'price' => 9500,
+                    'type' => 'adventure',
+                    'difficulty' => 'Moderate',
+                    'rating' => 4.4,
+                    'image' => 'mud-fun.jpeg',
                     'featured' => false
                 ]
             ];
@@ -258,13 +270,13 @@ A perfect escape for mind, body, and soul.',
                 <div class="testimonial-card">
                     <div class="testimonial-content">
                         <i class="fas fa-quote-left"></i>
-                        <p>"The Masai Mara tour exceeded all expectations. Our guide James was incredibly knowledgeable and we saw the Big Five!"</p>
+                        <p>"The  tour  to Buffalo Springs Resort exceeded all expectations. Our guide James was incredibly knowledgeable and we saw the Big Five!"</p>
                     </div>
                     <div class="testimonial-author">
-                        <img src="assets/images/testimonials/client1.jpg" alt="Sarah Johnson">
+                        <img src="assets/images/testimonial-avatar.jpeg" alt="Sarah Johnson">
                         <div>
                             <h4>Sarah Johnson</h4>
-                            <span>USA · Masai Mara Tour</span>
+                            <span>Nairobi · Buffalo Springs Resort</span>
                         </div>
                     </div>
                 </div>
@@ -275,10 +287,10 @@ A perfect escape for mind, body, and soul.',
                         <p>"Amazing cultural experience with the Samburu people. The team at MflipAdventures made us feel like family."</p>
                     </div>
                     <div class="testimonial-author">
-                        <img src="assets/images/testimonials/client2.jpg" alt="David Chen">
+                        <img src="assets/images/testimonial-avatar.jpeg" alt="David Chen">
                         <div>
                             <h4>David Chen</h4>
-                            <span>China · Samburu Cultural Tour</span>
+                            <span>Murang'a· Samburu Cultural Tour</span>
                         </div>
                     </div>
                 </div>

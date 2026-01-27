@@ -61,16 +61,16 @@ $page_title = 'Book Your Safari Adventure';
             <?php
             // Fetch tours from database (simulated)
             $tours = [
-                ['id' => 1, 'title' => 'Masai Mara Great Migration', 'price' => 850, 'duration' => '3 Days', 'image' => 'assets/images/Masai-Mara-Wildebeest-Migration.jpg'],
-                ['id' => 2, 'title' => 'Nairobi National Park Day Trip', 'price' => 120, 'duration' => '1 Day', 'image' => 'nairobi-park.jpg'],
-                ['id' => 3, 'title' => 'Amboseli Elephant Safari', 'price' => 420, 'duration' => '2 Days', 'image' => 'amboseli.jpg'],
-                ['id' => 4, 'title' => 'Samburu Cultural Experience', 'price' => 750, 'duration' => '4 Days', 'image' => 'samburu.jpg'],
+                ['id' => 1, 'title' => 'Suswa Trip', 'price' => 1550, 'duration' => '1 Day', 'image' => 'suswa-trip.jpeg'],
+                ['id' => 2, 'title' => 'Buffalo Spring Resrve', 'price' => 9000, 'duration' => '2  Days', 'image' => 'buffalo-resort.jpeg'],
+                ['id' => 3, 'title' => 'Trip to Mombasa', 'price' => 9500, 'duration' => '3 Days', 'image' => 'mombasa-trip.jfif'],
+                ['id' => 4, 'title' => 'Kanunga and Thurasha waterfalls', 'price' => 1800, 'duration' => '2 Days', 'image' => 'nature.jpeg'],
             ];
             
             foreach ($tours as $tour) {
                 echo '
                 <div class="tour-option" data-tour-id="' . $tour['id'] . '" data-tour-price="' . $tour['price'] . '">
-                    <div class="tour-option-image" style="background-image: url(\'assets/images/tours/' . $tour['image'] . '\');">
+                    <div class="tour-option-image" style="background-image: url(\'assets/images/' . $tour['image'] . '\');">
                         <span class="tour-duration">' . $tour['duration'] . '</span>
                     </div>
                     <div class="tour-option-content">

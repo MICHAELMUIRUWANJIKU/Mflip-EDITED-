@@ -2,18 +2,18 @@
 
 /* Booking Hero */
 .booking-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url('../images/j') no-repeat center center;
+    background-image: url("../images/olkaria -naivasha.jpeg");
     background-size: cover;
     color: var(--white);
     text-align: center;
     padding: 150px 0 80px;
     margin-top: 80px;
+    height: 100vh;
 }
 
 .booking-hero h1 {
     font-size: 3.5rem;
-    color: var(--white);
+    color:black;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -23,6 +23,7 @@
     max-width: 700px;
     margin: 0 auto;
     opacity: 0.9;
+    color: black;
 }
 
 /* Booking Process Steps */
