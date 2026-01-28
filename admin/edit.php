@@ -197,4 +197,4 @@ $highlights = json_decode($tour['highlights'] ?? '[]', true);
                                 <div class="input-list" id="excludesList">
                                     <?php foreach ($excludes as $exclude): ?>
                                     <div class="list-item">
-                                        <span><?php echo
+                                        <span><?php 
